@@ -12,7 +12,7 @@ export default function Home() {
     <div className="flex items-center justify-center min-h-[calc(100vh-4rem)] px-4">
       <Card className="w-full max-w-lg p-6 shadow-2xl">
         <div className="text-center">
-          <h1 className="text-3xl sm:text-4xl font-bold mb-4">welcome to <br /> BEAGLE BOWL</h1>
+          <h1 className="text-3xl sm:text-4xl font-bold mb-4">Hey Dogmom!<br />welcome to <br /> BEAGLE BOWL</h1>
           <p className="text-lg sm:text-xl mb-8">Tailor a Bowl Full of Love for Your Beagle!</p>
           <Button 
             onClick={() => router.push('/pantry')}
