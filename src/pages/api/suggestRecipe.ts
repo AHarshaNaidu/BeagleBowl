@@ -1,7 +1,7 @@
 require('dotenv').config()
 
 const Groq = require('groq-sdk');
-const groq = new Groq({ apiKey: '', dangerouslyAllowBrowser: true });
+const groq = new Groq({ apiKey: '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', dangerouslyAllowBrowser: true });
 export async function suggestRecipe(ingredients: string[]) {
   const chatCompletion = await groq.chat.completions.create({
     "messages": [
